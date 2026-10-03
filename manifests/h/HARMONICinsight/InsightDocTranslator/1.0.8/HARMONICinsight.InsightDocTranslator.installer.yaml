@@ -2,7 +2,10 @@
 
 PackageIdentifier: HARMONICinsight.InsightDocTranslator
 PackageVersion: 1.0.8
-InstallerType: inno
+InstallerType: zip
+NestedInstallerType: inno
+NestedInstallerFiles:
+- RelativeFilePath: InsightDocTranslator_Setup_1.0.8.exe
 Scope: machine
 ElevationRequirement: elevatesSelf
 UpgradeBehavior: install
@@ -14,7 +17,7 @@ AppsAndFeaturesEntries:
   ProductCode: '{00000000-0000-0000-0000-INST00000000}_is1'
 Installers:
 - Architecture: x64
-  InstallerUrl: https://pub-d1cd1506722c474f89a5ea4df69f744a.r2.dev/InsightDocTranslator_Setup_1.0.8.exe
-  InstallerSha256: 5F0E0909061372F339323A9211020A8E41A9506EDBB69A3E9995E2E23C5569C4
+  InstallerUrl: https://github.com/HarmonicInsight/cross-releases/releases/download/INST-v1.0.8/InsightDocTranslator_Setup_1.0.8.zip
+  InstallerSha256: 8CC894566A0F08109B8E50E509703D040145B8E1B29911FD893195A4EA83E140
 ManifestType: installer
 ManifestVersion: 1.12.0

@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: HARMONICinsight.InsightTrainingStudio
+PackageVersion: 1.1.1
+InstallerType: inno
+Scope: user
+UpgradeBehavior: install
+ProductCode: '{B9E4F5A3-8C2D-4F6B-A07E-3D9F2C4B6E8A}_is1'
+FileExtensions:
+- icproj
+AppsAndFeaturesEntries:
+- Publisher: HARMONIC insight
+  ProductCode: '{B9E4F5A3-8C2D-4F6B-A07E-3D9F2C4B6E8A}_is1'
+Installers:
+- Architecture: x64
+  InstallerUrl: https://pub-d1cd1506722c474f89a5ea4df69f744a.r2.dev/InsightTrainingStudio_Setup_1.1.1.exe
+  InstallerSha256: 014E8AB77C0DF6A75B14EE4E3D57C04A674BC0BDA3D427FBA4B353B20205B577
+ManifestType: installer
+ManifestVersion: 1.12.0
